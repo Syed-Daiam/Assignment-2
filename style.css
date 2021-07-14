@@ -30,7 +30,7 @@ body{
     font-size: .7em;
     margin-right: 20px;
 }
-a:hover{
+.flexible-area a:hover{
     background-color: rgba(0, 0, 0, 0.116);
     padding: 10px;
     font-size: 1em;
@@ -109,3 +109,24 @@ a:hover{
 .blog p{
     color: #6C6C6C;
 }
+/* Footer Part */
+.colors{
+    color: gray;
+    font-size: 30px; 
+}
+.footer-all{
+    margin-top: 100px;
+    margin-left: 240px;
+
+}
+.icon-link {
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.text-copy{
+    text-align: center;
+}
+
+
