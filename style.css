@@ -1,0 +1,111 @@
+/* .......................
+.....Full Body Styles .....
+..........................*/
+body{
+    width: 1024px;
+    margin: auto;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+}
+/*....................................
+.......... Common Styles...............
+ .....................................*/
+
+ .container{
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.flexible-area{
+    display: flex;
+}
+
+/* ............................................
+...........Navigation Bar part style...........
+................................................*/
+
+.flexible-area a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: .7em;
+    margin-right: 20px;
+}
+a:hover{
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 10px;
+    font-size: 1em;
+    transition: padding 1s ease;
+}
+.re-sizeing{
+    padding-left: 13%;
+    padding-top: 40px;
+}
+.log-in{
+    padding-left: 13%;
+}
+
+/* .................................
+...........Banner Part Style........
+.................................... */
+
+.backgroun-colors{
+    background-color: #2D25A0;
+}
+.container{
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.container h1{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 20%;
+    line-height: 50px;
+    padding-top: 25px;
+
+}
+.button-style{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.container img{
+    width: 100%;
+    margin-top: 10px;
+}
+/* ............................
+...........Player Details.......
+............................... */
+.blog-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+    margin: 0px 90px;
+    
+}
+.blog {
+    box-shadow: 0px 0px 30px rgb(219 219 219);
+    border: 8px solid #FFFFFF;
+    margin-top: 50px;
+    justify-content: center;
+}
+.blog img{
+    width: 100%;
+}
+.blog h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+.blog p{
+    color: #6C6C6C;
+}
