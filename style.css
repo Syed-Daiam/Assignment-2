@@ -122,11 +122,17 @@ body{
 .icon-link {
     display: grid;
     grid-template-columns: repeat(4,1fr); 
-    margin-left: 70px;
+    margin-left: 130px;
     margin-top: 10px;
 }
 .text-copy{
     text-align: center;
+}
+/* Media Queries */
+@media only screen and (max-width: 688px;){
+    .container{
+        width: 100%;
+    }
 }
 
 
