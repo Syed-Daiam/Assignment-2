@@ -124,6 +124,7 @@ body{
     grid-template-columns: repeat(4,1fr); 
     margin-left: 130px;
     margin-top: 10px;
+    justify-content: center;
 }
 .text-copy{
     text-align: center;
@@ -133,6 +134,7 @@ body{
     .container{
         width: 100%;
     }
+
 }
 
 
