@@ -19,6 +19,19 @@ body{
 .flexible-area{
     display: flex;
 }
+/* Mobile ICon  */
+.checkbtn{
+    font-size: 30px;
+    color: #FFFFFF;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 
 /* ............................................
 ...........Navigation Bar part style...........
@@ -130,17 +143,22 @@ body{
     text-align: center;
 }
 /* Media Queries */
-@media only screen and (max-width: 688px;){
-    .container{
-        width: 100%;
-    }
-    .footer-all, .blog-area,.flexible-area{
+@media only screen and (max-width: 688px){
+    .flexible-area, .blog-area, .re-sizeing, .image-logo {
         grid-template-columns: repeat(1,1fr);
-    }
-    .blog ,.log-in.{
         flex-direction: column;
+    }
+    .backgroun-colors, .blog{
+        width: 688px;
+    }
+    .blog{
+        width: 50%;
     }
 
 }
+
+   
+   
+
 
 
